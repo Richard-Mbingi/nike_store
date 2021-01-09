@@ -29,4 +29,5 @@ final List clubs = [
       3000
     ],
   ),
+  Club(clubName: null, clubLogo: null)
 ];

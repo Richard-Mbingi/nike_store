@@ -27,7 +27,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   navBar(),
                   clubList(),
-                  clubJersey(),
                 ],
               ),
             ),

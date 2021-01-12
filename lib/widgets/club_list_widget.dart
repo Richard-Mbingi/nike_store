@@ -1,7 +1,25 @@
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
+
+import '../models/club_model.dart';
 
 Widget clubList() {
   return Container(
-    height: 85,
+    child: CarouselSlider(
+      options: CarouselOptions(
+        height: 85,
+        enableInfiniteScroll: false,
+        viewportFraction: 0.24,
+        enlargeCenterPage: true,
+      ),
+      items: clubs.map((club) {
+        return Builder(builder: (BuildContext context) {
+          return Image.asset(
+            '${club.clubLogo}',
+            scale: 1.5,
+          );
+        });
+      }).toList(),
+    ),
   );
 }

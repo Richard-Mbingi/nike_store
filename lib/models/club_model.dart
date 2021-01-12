@@ -14,35 +14,77 @@ class Club {
   });
 }
 
-final List clubs = [
+
+final List<Club> clubs = [
   Club(
     clubName: "Barcelona",
-    clubLogo: "assets/images/barcelona_logo.png",
-  ),
-  Club(
-    clubName: "Chelsea",
-    clubLogo: "assets/images/chelsea_logo.png",
-  ),
-  Club(
-    clubName: "Tottenham Hotspurs",
-    clubLogo: "assets/img/clubs/spurs/spurs_logo.png",
+    clubLogo: "assets/images/barcelona/barcelona_logo.png",
     homeKit: [
-      "assets/img/clubs/spurs/spurs_homekit.png",
-      "assets/img/clubs/spurs/spurs_homekit2.jpg",
+      "assets/images/barcelona/homekit1.png",
+      "assets/images/barcelona/homekit2.jpg",
       2000
     ],
     awayKit: [
-      "assets/img/clubs/spurs/spurs_awaykit.png",
-      "assets/img/clubs/spurs/spurs_awaykit2.jpg",
+      "assets/images/spurs/awaykit.png",
+      "assets/images/spurs/awaykit2.jpg",
+      3000
+    ],
+  ),
+  Club(
+    clubName: "Chelsea",
+    clubLogo: "assets/images/chelsea/chelsea_logo.png",
+    homeKit: [
+      "assets/images/chelsea/homekit1.png",
+      "assets/images/chelsea/homekit2.jpg",
+      2000
+    ],
+    awayKit: [
+      "assets/images/spurs/awaykit.png",
+      "assets/images/spurs/awaykit2.jpg",
+      3000
+    ],
+  ),
+  Club(
+    clubName: "Tottenham Hotspurs",
+    clubLogo: "assets/images/tottenham/spurs_logo.png",
+    homeKit: [
+      "assets/images/tottenham/homekit1.png",
+      "assets/images/tottenham/homekit2.jpg",
+      2000
+    ],
+    awayKit: [
+      "assets/images/spurs/awaykit.png",
+      "assets/images/spurs/awaykit2.jpg",
       3000
     ],
   ),
   Club(
     clubName: "PSG",
-    clubLogo: "assets/images/psg_logo.png",
+    clubLogo: "assets/images/psg/psg_logo.png",
+    homeKit: [
+      "assets/images/psg/homekit1.png",
+      "assets/images/psg/homekit2.jpg",
+      2000
+    ],
+    awayKit: [
+      "assets/images/spurs/awaykit.png",
+      "assets/images/spurs/awaykit2.jpg",
+      3000
+    ],
   ),
   Club(
     clubName: "Liverpool",
-    clubLogo: "assets/images/liverpool_logo.png",
+    clubLogo: "assets/images/liverpool/liverpool_logo.png",
+    homeKit: [
+      "assets/images/liverpool/homekit1.png",
+      "assets/images/liverpool/homekit2.jpg",
+      2000
+    ],
+    awayKit: [
+      "assets/images/spurs/awaykit.png",
+      "assets/images/spurs/awaykit2.jpg",
+      3000
+    ],
   ),
 ];
+

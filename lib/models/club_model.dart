@@ -16,6 +16,14 @@ class Club {
 
 final List clubs = [
   Club(
+    clubName: "Barcelona",
+    clubLogo: "assets/images/barcelona_logo.png",
+  ),
+  Club(
+    clubName: "Chelsea",
+    clubLogo: "assets/images/chelsea_logo.png",
+  ),
+  Club(
     clubName: "Tottenham Hotspurs",
     clubLogo: "assets/img/clubs/spurs/spurs_logo.png",
     homeKit: [
@@ -29,5 +37,12 @@ final List clubs = [
       3000
     ],
   ),
-  Club(clubName: null, clubLogo: null)
+  Club(
+    clubName: "PSG",
+    clubLogo: "assets/images/psg_logo.png",
+  ),
+  Club(
+    clubName: "Liverpool",
+    clubLogo: "assets/images/liverpool_logo.png",
+  ),
 ];

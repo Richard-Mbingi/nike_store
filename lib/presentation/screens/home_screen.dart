@@ -24,9 +24,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 color: Color(0xffFAFAF),
               ),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   navBar(),
                   clubList(),
+                  clubMerch(),
                 ],
               ),
             ),

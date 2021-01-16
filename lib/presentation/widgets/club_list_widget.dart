@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 
-import '../models/club_model.dart';
+import '../../data/models/club_model.dart';
 
 Widget clubList() {
   return Container(
@@ -16,7 +16,7 @@ Widget clubList() {
         return Builder(builder: (BuildContext context) {
           return Image.asset(
             '${club.clubLogo}',
-            scale: 1.5,
+            scale: 2.0,
           );
         });
       }).toList(),

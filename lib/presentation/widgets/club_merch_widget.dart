@@ -21,15 +21,15 @@ Widget clubMerch() {
             ),
           ),
         ),
-        Positioned(
-          top: 50,
-          child: kitData(),
-        ),
         Align(
           alignment: Alignment.center,
           child: Positioned(
             child: _buildJersey(),
           ),
+        ),
+        Positioned(
+          top: 50,
+          child: kitData(),
         ),
       ],
     ),
@@ -39,6 +39,7 @@ Widget clubMerch() {
 Widget _buildJersey() {
   return CarouselSlider(
     options: CarouselOptions(
+        height: 350,
         enlargeCenterPage: true,
         enableInfiniteScroll: false,
         viewportFraction: 0.55),
@@ -50,6 +51,8 @@ Widget _buildJersey() {
         ),
         child: Image.asset(
           '${club.homeKit[0]}',
+          fit: BoxFit.cover,
+          alignment: Alignment(0.55, 1),
         ),
       );
     }).toList(),
